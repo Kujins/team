@@ -38,6 +38,18 @@ const forms = [
     previousPath: "../bcprevious-entries", 
     progressPath: "../bc-progress" 
   },
+  { 
+    name: "DSM5 Form", 
+    newPath: "../DSM5Form", 
+    previousPath: "../submitted-dsm5-forms", 
+    progressPath: null
+  },
+  { 
+    name: "SNAP Form", 
+    newPath: "../SnapForm", 
+    previousPath: "../snap-submitted-forms", 
+    progressPath: null
+  },
 ];
 
 const FormHome = () => {
