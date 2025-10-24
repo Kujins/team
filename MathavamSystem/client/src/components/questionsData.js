@@ -1,0 +1,81 @@
+ const sections = [
+    {
+      title: 'I. Social Communication',
+      key: 'social',
+      questions: [
+        'Shows appropriate affection towards familiar people',
+        'Resists affection from familiar people',
+        'Shows inappropriate affection towards unfamiliar people',
+        'Responds to attempts to initiate social interaction',
+        'Directs facial expression towards other people',
+        'Uses common gestures - waves "hello" and "goodbye"',
+        'Combines gestures with vocalizations to enhance communication',
+        'Looks when he/she is called or praised',
+        'Looks where another person is looking or pointing',
+        'Has difficulty interacting with peers',
+        'Says socially inappropriate things',
+        'Attends to parts of sentences and misinterprets whole',
+      ],
+    },
+    {
+      title: 'II. Restrictive Behaviors',
+      key: 'restrictive',
+      questions: [
+        'Gets upset over small changes in routine',
+        'Resists trying out new things - places, clothes, food, etc.',
+        'Is fixated on certain topics or activities and unable to move on',
+        'Has an unusually narrow range of interests',
+        'Repeats/echoes what others say',
+        'Makes repetitive body movements',
+      ],
+    },
+    {
+      title: 'III. Mood and Anxiety',
+      key: 'mood',
+      questions: [
+        'Cries over minor annoyances and hurts',
+        'Is irritable and whiny',
+        'Clings to adults or is too dependent on them',
+        'Is anxious in social situations',
+        'Is fearful of specific objects or situations',
+        'Has sleep problems',
+      ],
+    },
+    {
+      title: 'IV. Self-regulation',
+      key: 'selfRegulation',
+      questions: [
+        'Has difficulties waiting his/her turn',
+        'Switches quickly from one topic or activity to another',
+        'Has difficulties playing or engaging in leisure activities quietly',
+        'Fidgets',
+        'Has difficulty remaining seated',
+        'Is excessively active',
+      ],
+    },
+    {
+      title: 'V. Challenging Behavior',
+      key: 'challenging',
+      questions: [
+        'Is verbally aggressive towards other children or adults',
+        'Is physically aggressive towards other children or adults',
+        'Throws things inappropriately',
+        'Runs away',
+        'Takes or grabs things that belong to others',
+        'Has temper outbursts or tantrum',
+      ],
+    },
+    {
+      title: 'VI. Self-injurious Behavior',
+      key: 'selfInjury',
+      questions: [
+        'Engages in head-banging',
+        'Engages in arm-biting',
+        'Engages in excessive scratching',
+        'Engages in hair-pulling',
+        'Engages in eye-poking',
+        'Engages in other self-injurious behavior',
+      ],
+    },
+  ];
+  export default sections;

@@ -1,0 +1,122 @@
+#root {
+
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
+
+
+/* Styling for the table */
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Header cell styling */
+.styled-table th {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 2px solid #000;
+  background-color: #f2f2f2;
+  color: #000; /* Ensures header text is visible */
+}
+
+/* Body cell styling */
+.styled-table td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  color: #000; /* Ensures text color is black */
+}
+
+
+/* Optional: Styling for form container */
+.form-container {
+  padding: 20px;
+}
+
+/* Styling for the score section */
+.score-section {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  border: 2px solid #ddd;
+}
+
+/* Styling for the comments section */
+.comments-section {
+  margin: 20px 0;
+}
+
+.comments-section label {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+/* Styling for the textarea */
+.comments-section textarea {
+  width: 100%;
+  min-height: 60px;
+  max-height: 300px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical; /* Allows vertical resizing */
+  background-color: #fff;
+  color: #333;
+}
+
+/* Add a subtle focus effect */
+.comments-section textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
